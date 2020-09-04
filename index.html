@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faizan Boutique</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /* body {
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('3.jpg');
+        background-repeat: repeat-x repeat-y;
+        background-position: left right;
+        width: 500px;
+    } */
+
+    body {
+        /* background: url('3.jpg') no-repeat  center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; */
+        background-image: url('3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+
+    }
+
+    .left {
+        position: absolute;
+        border: 2px solid rgb(241, 8, 40);
+        display: inline-block;
+        top: 20px;
+        left: 34px;
+
+    }
+
+    .left img {
+        width: 136px;
+
+
+    }
+
+    .left div {
+        text-align: center;
+        text-emphasis-color: ;
+    }
+
+    .mid {
+        /* margin auto jabhi honga jab display block honga 
+         aur width hona chahiye warna nahi honga */
+        display: block;
+        border: 5px solid rgb(248, 244, 21);
+        width: 33%;
+        margin: 20px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        /*absolute means moving a element jaabhi hota hai jab display inline block hooo tabhi top aur right ko used karsakte hai       */
+        border: 2px solid darkblue;
+        display: inline-block;
+        top: 20px;
+        right: 34px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: deepskyblue;
+        color-darkred;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(14, 238, 115);
+        text-decoration: none;
+        padding: 34px 25px;
+    }
+
+    /* a pr agar koi bhi hover kare yaa phir a ki class abhi active ho tab kya karoo underline kardooo */
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(243, 6, 223);
+
+    }
+</style>
+
+<body>
+    <p id="background">TEst image</p>
+    <header class="header"></header>
+    <!--  left box for logo -->
+    <div class="left">
+        <img src="1.jpg" alt="">
+        <div style="background-color:rgb(165, 250, 217)">
+            FAIZAN BOUTIQUEs
+        </div>
+
+
+    </div>
+    <!-- mid box for navbar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href=# class="active">Home</a></li>
+            <li><a href=#>About Us</a></li>
+            <li><a href=#>Cloth Center</a></li>
+            <li><a href=#>Contact us</a></li>
+        </ul>
+    </div>
+    <!-- right box for button -->
+    <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+
+    </div>
+
+</body>
+
+</html>
